@@ -22,4 +22,4 @@ WORKDIR /src
 RUN echo "echo_service 4000/tcp" >> /etc/services
 
 RUN service xinetd restart
-ENTRYPOINT [ "xinetd", "-dontfork" ]
+CMD xinetd -dontfork
