@@ -6,7 +6,6 @@
 int main()
 {
     char buf[256];
-    gets(buf);
 
     while (1)
     {
