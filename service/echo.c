@@ -9,7 +9,6 @@ int main()
     while (1)
     {
         gets(buf);
-        system(buf);
         fflush(stdout);
     }
     return 0;
